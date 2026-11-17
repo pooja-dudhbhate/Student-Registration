@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #eeeaff;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 450px;
+            background: white;
+            margin: auto;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6c63ff;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 7px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #6c63ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Registration</h1>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number">
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Gender</label>
+        <select>
+            <option>Select Gender</option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Other</option>
+        </select>
+
+        <label>Select Course</label>
+        <select>
+            <option>Select Course</option>
+            <option>B.Sc Computer Science</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Com</option>
+        </select>
+
+        <label>Address</label>
+        <textarea rows="4" placeholder="Enter your address"></textarea>
+
+        <button type="submit">Register Now</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
